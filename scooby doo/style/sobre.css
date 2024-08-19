@@ -1,0 +1,76 @@
+#sobre_corpo{
+    background-color: rgba(0, 0, 0, 0); /* Preto 50% */
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+}
+#sobre_corpo {
+    
+    width: 100%;
+    height: 100%; 
+    opacity: 0.9; 
+    margin-left: auto;
+    padding: 40px 4%; 
+    margin-top: auto;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+
+    display: flex; 
+    align-items: flex-start; 
+    gap: 20px;
+    text-align: justify;
+    gap: 20%;  
+
+}
+
+
+#sobre_corpo img {
+    width: 400px;
+    height: auto; 
+    position: relative; 
+    animation: animar 2s ease-in-out infinite alternate;
+}
+
+@keyframes animar {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 30px; 
+    }
+}
+
+
+
+
+::-webkit-scrollbar {
+    width: 12px; 
+}
+
+::-webkit-scrollbar-track {
+    background: transparent; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.3); 
+    border-radius: 6px; 
+}
+
+
+#botao button{
+    color: black;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #00FF08;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#botao {
+    margin-right: 65%;
+    margin-bottom: 50%;
+    font-size: 20px;
+}
